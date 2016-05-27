@@ -4,12 +4,6 @@ import matplotlib.pyplot as plt
 
 d = pd.read_csv('pbp-2015-output.csv')
 
-#map some game states
-
-
-#focus on plays
-h_off = d[d.OffenseTeam == d.Home]
-
 
 
 #filter out non 'traditional' plays
